@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+ <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
  <meta charset="UTF-8">
  <title>My Website - About</title>
 </head>
 <body>
  <h1>Levaughn Hines</h1>
  <p>I am a third year Computer Science student.</p>
+ <img src="{{ url_for('static', filename='blackbeard.jpg') }}"  />
 </body>
 </html>
